@@ -1,15 +1,15 @@
 {
- "name": "izuku-md",
+ "name": "Trace bot",
  "version": "0.0.7",
  "description": "Multi device whatsapp bot by excelottah6.",
  "main": "lib/client.js",
  "type": "commonjs",
  "license": "GPL-3.0",
  "scripts": {
-  "start": "pm2 start lib/client.js --deep-monitoring --attach --name izuku",
-  "stop": "pm2 stop izuku"
+  "start": "pm2 start lib/client.js --deep-monitoring --attach --name Trace",
+  "stop": "pm2 stop Trace"
  },
- "author": "excelottah6",
+ "author": "Trace zer",
 "dependencies": {
   "node-schedule": "^2.0.0",
   "@adiwajshing/keyed-db": "^0.2.4",
